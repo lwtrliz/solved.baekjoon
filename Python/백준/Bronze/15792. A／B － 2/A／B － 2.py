@@ -4,7 +4,7 @@ if a%b == 0:
     print(a//b)
 else:
     r = a%b
-    for i in range(1001):
+    for i in range(len(str(33333333333333333333333333333333))):
         if i == 0:
             print(a//b, end="")
             print(".", end="")
