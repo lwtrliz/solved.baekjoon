@@ -9,8 +9,12 @@ else:
             print(a//b, end="")
             print(".", end="")
         else:
-            if (r*10)//b !=0:
+            if ((r*10)%b ==0) and (i > 1):
+                if (r*10)//b==0:
+                    break
+                else:
+                    print((r*10)//b, end="")
+                    break
+            else:
                 print((r*10)//b, end="")
                 r = (r*10)%b
-            else:
-                break
